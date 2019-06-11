@@ -7,12 +7,12 @@ import importlib
 
 dependencies = [ 'QtPy>=1.7.0', 'numpy>=1.16.2', 'matplotlib>=3.0.3', 'argparseqt>=0.2.1' ]
 
-for binding in ['PySide2', 'PyQt5', 'PySide', 'PyQt']:
-	spec = importlib.util.find_spec(binding)
-	if spec is not None:
-		break
-else:
-	dependencies.append('PySide2>=5.12.2')
+#for binding in ['PySide2', 'PyQt5', 'PySide', 'PyQt']:
+#	spec = importlib.util.find_spec(binding)
+#	if spec is not None:
+#		break
+#else:
+#	dependencies.append('PySide2>=5.12.2')
 
 
 
